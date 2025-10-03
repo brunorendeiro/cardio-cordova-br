@@ -1,6 +1,27 @@
-# OutSystems card.io cordova plugin
 
-The purpose of this plugin is to leverage Hybrid Applications with [card.io](https://www.card.io/) features. With this plugin the users can scan credit cards in your mobile app.
+# Card.io Cordova Plugin (versão sem ecrã de confirmação)
+
+Este plugin é um clone do plugin original [OutSystems card.io cordova plugin](https://bitbucket.org/uxmobile/cardio-cordova-plugin.git), com uma alteração importante:
+
+**O ecrã de confirmação do Card.io foi removido.**
+
+Após a leitura do cartão, os dados são imediatamente devolvidos à aplicação, sem mostrar ao utilizador o ecrã de confirmação padrão do Card.io.
+
+Esta alteração foi feita para simplificar o fluxo de utilizador e acelerar o processo de leitura de cartões.
+
+---
+
+## Sobre o plugin original
+
+O propósito do plugin original é permitir que aplicações híbridas usem as funcionalidades do [card.io](https://www.card.io/) para ler cartões de crédito através da câmara.
+
+Este clone mantém toda a compatibilidade, exceto pela remoção do ecrã de confirmação.
+
+---
+
+## Utilização
+
+O funcionamento, métodos e parâmetros mantêm-se iguais ao original. Veja abaixo exemplos e instruções.
 
 As with all the cordova plugins, the plugin isn't available until the execution of `deviceready` event.
 
