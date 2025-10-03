@@ -113,11 +113,16 @@ plugin.cardio.scanCard(
 
 ---
 
+
 #### Contributors
 - OutSystems - Mobility Experts
-    - João Gonçalves, <joao.goncalves@outsystems.com>
-    - Rúben Gonçalves, <ruben.goncalves@outsystems.com>
-    - Vitor Oliveira, <vitor.oliveira@outsystems.com>
+  - João Gonçalves, <joao.goncalves@outsystems.com>
+  - Rúben Gonçalves, <ruben.goncalves@outsystems.com>
+  - Vitor Oliveira, <vitor.oliveira@outsystems.com>
+
+#### Novo update/alteração
+- Remoção do ecrã de confirmação Card.io e manutenção deste clone:
+  - Bruno Rendeiro, <brunorendeiro88@gmail.com>
 
 #### Document author
 - João Gonçalves, <joao.goncalves@outsystems.com>
