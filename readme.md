@@ -38,29 +38,18 @@ function onDeviceReady() {
 - Android
 
 ## Installation
-- Run the following command:
+
+## Instalação
+
+Execute o seguinte comando para instalar este plugin diretamente do repositório atualizado:
 
 ```shell
-    cordova plugin add https://bitbucket.org/uxmobile/cardio-cordova-plugin.git
+cordova plugin add https://github.com/brunorendeiro/cardio-cordova-br.git
 ```
+
 ### Android
 
-An additional step has to be done for Android.
-In your `build.gradle`, add:
-
-```
-repositories {
-    mavenCentral()
-}
-```
-
-After that, you just need to add _CardIO_ as a dependency to your application:
-
-```
-dependencies {
-    compile 'io.card:android-sdk:5.1.2'
-}
-```
+Não são necessários passos adicionais: o plugin já inclui a dependência correta do Card.io (5.5.1) no `plugin.xml` e no `build.gradle`.
 
 ## CardIOPlugin
 
