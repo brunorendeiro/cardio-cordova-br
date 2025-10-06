@@ -55,8 +55,10 @@ public class CardIoPlugin extends CordovaPlugin {
                 Intent scanIntent = new Intent(cordova.getActivity(), CardIOActivity.class);
                 // customize these values to suit your needs.
                 scanIntent.putExtra(CardIOActivity.EXTRA_REQUIRE_EXPIRY, requireExpiry); // default: false
-                scanIntent.putExtra(CardIOActivity.EXTRA_REQUIRE_CVV,ardIOActivity.EXTRA_REQUIRE_POSTAL_CODE requireCvv); // default: false
-                scanIntent.putExtra(C, requirePostalCode); // default: false
+                scanIntent.putExtra(CardIOActivity.EXTRA_REQUIRE_CVV, requireCvv); // default: false
+                scanIntent.putExtra(CardIOActivity.EXTRA_REQUIRE_POSTAL_CODE, requirePostalCode); // default: false
+                scanIntent.putExtra(CardIOActivity.EXTRA_HIDE_CARDIO_LOGO, true); // default: false
+                scanIntent.putExtra(CardIOActivity.EXTRA_USE_PAYPAL_ACTIONBAR_ICON, false); // default: true
                 // scanIntent.putExtra(CardIOActivity.EXTRA_SUPPRESS_MANUAL_ENTRY, true);
                 scanIntent.putExtra("io.card.payment.suppressConfirmation", true); // Suprime o ecrã de confirmação
                 // scanIntent.putExtra(CardIOActivity.EXTRA_KEEP_APPLICATION_THEME, true);
